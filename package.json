@@ -1,0 +1,36 @@
+{
+  "name": "markdown-previewer",
+  "version": "1.0.0",
+  "description": "A webapp that lets a user type using Markdown and see a rendered version",
+  "main": "index.js",
+  "scripts": {
+    "serve": "webpack-dev-server --watch",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ashleydonohoe/markdown-previewer.git"
+  },
+  "keywords": [
+    "markdown",
+    "react"
+  ],
+  "author": "Ashley Donohoe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashleydonohoe/markdown-previewer/issues"
+  },
+  "homepage": "https://github.com/ashleydonohoe/markdown-previewer#readme",
+  "devDependencies": {
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "babel-preset-react": "^6.16.0",
+    "html-webpack-plugin": "^2.25.0",
+    "webpack": "2.1.0-beta.25",
+    "webpack-dev-server": "^1.16.2"
+  },
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  }
+}
