@@ -10,10 +10,9 @@
     "prod": "NODE_ENV=production node server.js",
     "postinstall": "webpack -p"
   },
-  "engines":
-  {
+  "engines": {
     "node": "6.11.1"
-  }
+  },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/ashleydonohoe/markdown-previewer.git"
